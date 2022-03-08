@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:theme_demo/theme.dart';
 
 void main() {
-  runApp(const ThemesDemoAppEx()); //AuthScreen());
+  runApp(const ThemesDemoAppEx()); 
 }
 
 class ThemesDemoAppEx extends StatefulWidget {
@@ -18,7 +18,7 @@ class _ThemesDemoAppExState extends State<ThemesDemoAppEx> {
   Widget build(BuildContext context) {
     return MaterialApp(
         theme: userDefinedTheme(),
-        //themeMode: ThemeMode.dark,
+        
         home: const ThemesDemoScreen());
         
   }
